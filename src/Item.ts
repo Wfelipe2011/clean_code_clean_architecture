@@ -14,6 +14,7 @@ export default class Item {
     }
 
     getDensity() {
+        if (this.getVolume() === 0) return 0;
         return this.dimension.getDensity()
     }
 
