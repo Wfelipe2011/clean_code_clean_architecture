@@ -1,0 +1,13 @@
+Formula para frete:
+
+Guitarra
+
+width: 100cm
+height: 30cm
+length: 100cm
+weight: 3kg
+
+freight = volume(m3) * distance * (density/100)
+
+volume = width/100 * height/100 * length/100
+density = weight/volume
